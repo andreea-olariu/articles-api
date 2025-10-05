@@ -1,0 +1,7 @@
+from enum import Enum
+
+
+class ApiResponses(Enum):
+    INTERNAL_SERVER_ERROR = "INTERNAL_SERVER_ERROR"
+    SUCCESS_MESSAGE = "SUCCESS"
+    FAILED_TO_INSERT = "FAILED_TO_INSERT"
